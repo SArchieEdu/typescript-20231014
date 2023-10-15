@@ -1,4 +1,5 @@
 import "reflect-metadata";
+import { MovieTypes } from "../11enums";
 
 export class Test {
   @LogTime(1)
@@ -105,6 +106,12 @@ function validate<Entity extends Object>(entity: Entity) {
 
     return true;
   });
+}
+
+MovieTypes.l;
+
+function testMovie(type: MovieTypes) {
+  return type;
 }
 
 validate(new Dog(12));
