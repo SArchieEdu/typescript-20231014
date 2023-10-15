@@ -55,4 +55,4 @@ type MovieSetters = {
 
 type CompleteMovie = Movie & MovieGetters & MovieSetters;
 
-class Film implements CompleteMovie {}
+// class Film implements CompleteMovie {}
