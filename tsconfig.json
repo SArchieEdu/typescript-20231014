@@ -5,7 +5,9 @@
     "allowJs": true,
     "moduleResolution": "Node",
     "esModuleInterop": true,
-    "isolatedModules": true
+    "isolatedModules": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
   },
   "include": [
     "src/**/*"
